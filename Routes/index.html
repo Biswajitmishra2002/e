@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Voting</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <h1>Online Voting System(E-Voting)</h1> 
+
+   <nav>
+    <div id="ok">
+    <img src="../image/img.png" alt="">
+    </div>
+   </nav>
+
+    <form action="../api/login.php" method="POST">
+        <h3>Login</h3> <br>
+            <input type="number" name="mobile" placeholder="Enter mobile number"> <br> <br>
+            <input type="password" name="password" placeholder="password"> <br> <br>
+        <select name="role">
+            <option value="1">Voter</option>
+            <option value="2">Candidate</option>
+        </select> <br> <br>
+        <button type="submit">Login</button> <br> <br>
+
+      <h4>  New user? <a href="registration.html">Register here</a> </h4>
+
+    </form>
+</body>
+</html>

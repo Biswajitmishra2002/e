@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    body{
+        /* background: url(../image/imgg.png) no-repeat  ; */
+        /* background-size: cover;  */
+        /* height: 1px;
+        margin: 10px;*/
+        background-color: rgb(0, 0, 0); 
+        /* height: -10px; */
+    }
+#ok img{
+    height: 180px;
+    margin: 13px 58px;
+    padding: 120px 134px;
+    position: relative;
+}
+h2{
+    color: rgb(217, 8, 8);
+}
+
+h1{
+    font-family: 'Heebo', sans-serif;
+   
+    color: rgb(255, 255, 255);
+    width: 50%;
+    display: inline-block;
+    font-size: 40px;
+    /* border-bottom: 5px solid purple; */
+    margin-bottom: 15px;
+    padding: 13px 350px;
+}
+    
+    h4{
+        font-size: 20px;
+    }
+    ::placeholder{
+        color: azure;
+    }
+    form{
+        color: white;
+        position: absolute;
+        top: 20%;
+        left: 40%;
+    }
+    input{  
+        background: none;
+        width: 90%;
+        padding: 5px 10px;
+        font-size: 20px;
+        border: 2px solid purple;
+        outline: 2px;
+        color: white;
+        border-radius: 10px;
+        
+    }
+    select{
+        background: black;
+        width: 90%;
+        padding: 5px 10px;
+        font-size: 16px;
+        border: 1px solid purple;
+        outline: 2px;
+        color: white;
+    }
+    button{
+        color: white;
+        cursor: pointer;
+        outline: none; 
+        margin: 12px 0;
+        padding: 10px 21px;
+        border: 2px solid purple;
+        border-radius: 10px;
+        font-size: 18px;
+        background: none;
+        font-weight: bold;
+    }
+    button:hover{
+        /* opacity: 0.5; */
+        color: rgb(26, 3, 179); 
+        /* background: rgb(151, 31, 31);  */
+        border: 2px solid purple;
+        
+    }    
+    .center{
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        padding: 9px 20px;
+    }
